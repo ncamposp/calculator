@@ -25,6 +25,7 @@ class TestCalculator (unittest.TestCase):
     self.assertEqual(calculator.division(-5, 1), -5)
     self.assertEqual(calculator.division(-25, -5), 5)
     self.assertEqual(calculator.division(0, 0), -1)
+    self.assertEqual(calculator.division(100, 0), -1)
 
 if __name__ == '__main__':
   unittest.main()
